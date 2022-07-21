@@ -27,7 +27,7 @@ private val LightColorPalette = lightColors(
 fun Jetpack_UITheme(content: @Composable () -> Unit) {
 
     MaterialTheme(
-        colors = colors,
+        colors = LightColorPalette,
         typography = Typography,
         shapes = Shapes,
         content = content

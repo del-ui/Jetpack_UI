@@ -8,7 +8,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.victor.jetpack_ui.R
-,
+
 
 private val Poppins = FontFamily(
     Font(R.font.poppins_regular),
@@ -25,4 +25,3 @@ val Typography = Typography(
     defaultFontFamily = Poppins
     )
 
-)
