@@ -54,8 +54,28 @@ fun SignInScreen(){
             shape = RoundedCornerShape(32.dp)) {
                 Column(
                     Modifier
-                    .fillMaxSize()
-                    .padding(30.dp)) {
+                        .fillMaxSize()
+                        .padding(30.dp)) {
+
+                }
+            }
+            Card(
+                Modifier
+                    .weight(1f)
+                    .padding(6.dp),
+                shape = RoundedCornerShape(32.dp)) {
+                    Column(Modifier
+                        .fillMaxSize().padding(30.dp)) {
+
+                    }
+            }
+            Card(
+                Modifier
+                    .weight(1f)
+                    .padding(6.dp),
+                shape = RoundedCornerShape(32.dp)) {
+                Column(Modifier
+                    .fillMaxSize().padding(30.dp)) {
 
                 }
             }
